@@ -25,7 +25,6 @@ public class ItemClearer implements Runnable {
         ItemClearingWarning.bossBar.setName(messageRaw);
         ItemClearingWarning.bossBar.setPercent(0.0f);
         for (Player player : plugin.getGame().getServer().getOnlinePlayers()) {
-            player.playSound(SoundTypes.ENTITY_SPLASH_POTION_BREAK, SoundCategories.VOICE, player.getPosition(), 25);
             player.sendMessage(ChatTypes.ACTION_BAR, messageRaw);
         }
         plugin.getGame().getServer().getBroadcastChannel().send(message);

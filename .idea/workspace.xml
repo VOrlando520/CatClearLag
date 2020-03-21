@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c4b445-b70b-45e4-a663-49e9a0211831" name="Default" comment="fix a few">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flowpowered_flow_noise_1_0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flowpowered_flow_noise_1_0_1_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_inject_guice_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CatClearLag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CatClearLag.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CatClearLag_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CatClearLag_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CatClearLag_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CatClearLag_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearingWarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearingWarning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +44,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CatClearLag" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatClearLag" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -105,11 +95,6 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1092" />
   </component>
   <component name="ProjectId" id="1ZMo8BFwykr7zlCNFCOYZizmKjd" />
   <component name="ProjectLevelVcsManager">
@@ -434,11 +419,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.CatClearLag [assemble]" />
+      <item itemvalue="Gradle.CatClearLag [buildDependents]" />
+      <item itemvalue="Gradle.CatClearLag [build]" />
       <item itemvalue="Gradle.CatClearLag [generateStart]" />
       <item itemvalue="Gradle.CatClearLag [setupVanillaServer]" />
-      <item itemvalue="Gradle.CatClearLag [build]" />
-      <item itemvalue="Gradle.CatClearLag [buildDependents]" />
-      <item itemvalue="Gradle.CatClearLag [assemble]" />
     </list>
     <recent_temporary>
       <list>
@@ -1004,18 +989,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix whitelist command" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="359" key="#Configure_Path_Variables" timestamp="1584658190476">
+    <state x="872" y="359" key="#Configure_Path_Variables" timestamp="1584746110256">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="359" key="#Configure_Path_Variables/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584658190476" />
-    <state x="1060" y="456" key="FileChooserDialogImpl" timestamp="1584658186650">
+    <state x="872" y="359" key="#Configure_Path_Variables/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584746110256" />
+    <state x="1060" y="456" key="FileChooserDialogImpl" timestamp="1584746108243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584658186650" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584658167437">
+    <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584746108243" />
+    <state width="2517" height="355" key="GridCell.Tab.0.bottom" timestamp="1584747413032">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584658167437" />
+    <state width="2517" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413032" />
+    <state width="2517" height="355" key="GridCell.Tab.0.center" timestamp="1584747413032">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="355" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413032" />
+    <state width="2517" height="355" key="GridCell.Tab.0.left" timestamp="1584747413031">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="355" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413031" />
+    <state width="2517" height="355" key="GridCell.Tab.0.right" timestamp="1584747413032">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="355" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413032" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584741077352">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584741077352" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
