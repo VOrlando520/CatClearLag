@@ -53,9 +53,6 @@ public class ItemClearingWarning implements Runnable {
                 }
             }, 1, 1, TimeUnit.SECONDS);
         }
-        for (Player player : onlinePlayers) {
-            player.sendMessage(ChatTypes.ACTION_BAR, rawMessage);
-        }
         plugin.getGame().getServer().getBroadcastChannel().send(message);
     }
 }

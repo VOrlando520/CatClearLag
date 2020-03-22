@@ -4,6 +4,7 @@
     <list default="true" id="05c4b445-b70b-45e4-a663-49e9a0211831" name="Default" comment="fix a few">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearingWarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/time6628/clag/sponge/runnables/ItemClearingWarning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -997,26 +998,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584746108243" />
-    <state width="2517" height="355" key="GridCell.Tab.0.bottom" timestamp="1584747413032">
+    <state width="2517" height="355" key="GridCell.Tab.0.bottom" timestamp="1584847446875">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413032" />
-    <state width="2517" height="355" key="GridCell.Tab.0.center" timestamp="1584747413032">
+    <state width="2517" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584847446875" />
+    <state width="2517" height="355" key="GridCell.Tab.0.center" timestamp="1584847446875">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="355" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413032" />
-    <state width="2517" height="355" key="GridCell.Tab.0.left" timestamp="1584747413031">
+    <state width="2517" height="355" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584847446875" />
+    <state width="2517" height="355" key="GridCell.Tab.0.left" timestamp="1584847446875">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="355" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413031" />
-    <state width="2517" height="355" key="GridCell.Tab.0.right" timestamp="1584747413032">
+    <state width="2517" height="355" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584847446875" />
+    <state width="2517" height="355" key="GridCell.Tab.0.right" timestamp="1584847446875">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="355" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584747413032" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584741077352">
+    <state width="2517" height="355" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584847446875" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584847316134">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584741077352" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1584847316134" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

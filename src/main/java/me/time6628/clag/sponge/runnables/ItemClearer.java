@@ -24,9 +24,6 @@ public class ItemClearer implements Runnable {
         Text messageRaw = Messages.getClearMsg(i, false);
         ItemClearingWarning.bossBar.setName(messageRaw);
         ItemClearingWarning.bossBar.setPercent(0.0f);
-        for (Player player : plugin.getGame().getServer().getOnlinePlayers()) {
-            player.sendMessage(ChatTypes.ACTION_BAR, messageRaw);
-        }
         plugin.getGame().getServer().getBroadcastChannel().send(message);
         ItemClearingWarning.bossBarUpdater.cancel(true);
         plugin.getGame().getScheduler().createTaskBuilder().execute(() -> {
