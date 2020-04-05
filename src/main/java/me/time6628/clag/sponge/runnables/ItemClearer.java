@@ -22,16 +22,6 @@ public class ItemClearer implements Runnable {
         int i = EntityHelpers.clearGroundItems();
         Text message = Messages.getClearMsg(i);
         Text messageRaw = Messages.getClearMsg(i, false);
-        ItemClearingWarning.bossBar.setName(messageRaw);
-        ItemClearingWarning.bossBar.setPercent(0.0f);
         plugin.getGame().getServer().getBroadcastChannel().send(message);
-        ItemClearingWarning.bossBarUpdater.cancel(true);
-        plugin.getGame().getScheduler().createTaskBuilder().execute(() -> {
-            //plugin.getLogger().info("bossBarPercent {}", ItemClearingWarning.bossBar.getPercent());
-            if (ItemClearingWarning.bossBar.getPercent() == 0.0f) {
-                ItemClearingWarning.bossBar.setVisible(false);
-                ItemClearingWarning.bossBar = null;
-            }
-        }).delay(plugin.getCclConfig().bossBar.hideBoss, TimeUnit.SECONDS).async().submit(plugin);
     }
 }

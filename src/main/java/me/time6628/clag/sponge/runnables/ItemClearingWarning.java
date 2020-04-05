@@ -34,25 +34,6 @@ public class ItemClearingWarning implements Runnable {
         Text message = Messages.getWarningMsg(seconds);
         Text rawMessage = Messages.getWarningMsg(seconds, false);
         Collection<Player> onlinePlayers = plugin.getGame().getServer().getOnlinePlayers();
-        if (bossBar == null || !bossBar.isVisible()) {
-            bossBar = ServerBossBar.builder()
-                    .color(plugin.getCclConfig().bossBar.bossBarColor)
-                    .darkenSky(false)
-                    .createFog(false)
-                    .playEndBossMusic(false)
-                    .percent(1.0f)
-                    .name(rawMessage)
-                    .visible(true)
-                    .overlay(BossBarOverlays.PROGRESS)
-                    .build();
-            bossBar.addPlayers(onlinePlayers);
-            bossBarUpdater = plugin.getGame().getScheduler().createAsyncExecutor(plugin).scheduleAtFixedRate(() -> {
-                if (bossBar != null) {
-                    bossBar.setPercent(bossBar.getPercent() - (1.0f / seconds));
-                    bossBar.setName(Messages.getWarningMsg((int) (seconds * bossBar.getPercent()), false));
-                }
-            }, 1, 1, TimeUnit.SECONDS);
-        }
         plugin.getGame().getServer().getBroadcastChannel().send(message);
     }
 }
